@@ -1,0 +1,47 @@
+﻿html {
+    background: #222222;
+    background: -moz-linear-gradient(left, #222222 0%, #ffffff 50%, #222222 100%);
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,#222222), color-stop(50%,#ffffff), color-stop(100%,#222222));
+    background: -webkit-linear-gradient(left, #222222 0%,#ffffff 50%,#222222 100%);
+    background: -o-linear-gradient(left, #222222 0%,#ffffff 50%,#222222 100%);
+    background: -ms-linear-gradient(left, #222222 0%,#ffffff 50%,#222222 100%);
+    background: linear-gradient(to right, #222222 0%,#ffffff 50%,#222222 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#222222', endColorstr='#222222',GradientType=1 );
+}
+
+body {
+    max-width: 580px;
+    margin: 0 auto;
+    font-family: consolas;
+    font-size: 16px
+}
+
+h1, h2 {
+    text-align: center
+}
+
+div {
+    color: #ccc;
+    padding-left: 10px;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+    background-color: #222
+}
+
+    div:first-of-type {
+        padding-top: 5px;
+        border-top: 3px solid black;
+        border-radius: 10px 10px 0 0
+    }
+
+    div:last-of-type {
+        padding-bottom: 10px;
+        border-bottom: 3px solid black;
+        border-radius: 0 0 10px 10px
+    }
+
+iframe {
+    display: block;
+    border: 0;
+    margin: 0 auto
+}

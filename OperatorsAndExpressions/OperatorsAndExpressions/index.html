@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Operators and Expressions</title>
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+    <p>Problem 1. Odd or Even</p>
+    <input type="text" id="odd-or-even" />
+    <button onclick="isOdd(getElementById('odd-or-even'))">Is odd?</button>
+    <p>Problem 2. Divisible by 7 and 5</p>
+    <input type="text" id="divisible-by-35" />
+    <button onclick=" divideBy35(getElementById('divisible-by-35')) ">Divided by 7 and 5?</button>
+    <p>Problem 3. Rectangle area</p>
+    <label for="width">width</label>
+    <input type="text" id="width" />
+    <label for="height">height</label>
+    <input type="text" id="height" />
+    <button onclick=" calculateRectangleArea(getElementById('width'), getElementById('height'), getElementById('rectangle-area')) ">Calculate!</button>
+    <input type="text" id="rectangle-area" />
+    <p>Problem 4. Third digit</p>
+    <input type="text" id="third-digit" />
+    <button onclick=" isThirdDigit7(getElementById('third-digit')) ">Is 3rd digit 7?</button>
+    <p>Problem 5. Third bit</p>
+    <input type="text" id="third-bit" />
+    <button onclick=" getThirdBit(getElementById('third-bit')) ">Get 3rd bit!</button>
+    <p>Problem 6. Point in Circle K(O, 5)</p>
+    <label for="x">x</label>
+    <input type="text" id="x" />
+    <label for="y">y</label>
+    <input type="text" id="y" />
+    <button onclick=" checkPointInCircle(getElementById('x'), getElementById('y'), getElementById('in-circle')) ">Inside?</button>
+    <input type="text" id="in-circle" />
+    <p>Problem 7. Is prime</p>
+    <input type="text" id="prime" />
+    <button onclick=" isPrime(getElementById('prime')) ">Is prime?</button>
+    <p>Problem 8. Trapezoid area</p>
+    <label for="a">a</label>
+    <input type="text" id="a" />
+    <label for="b">b</label>
+    <input type="text" id="b" />
+    <label for="h">h</label>
+    <input type="text" id="h" />
+    <button onclick=" calculateTrapezoidArea(getElementById('a'), getElementById('b'), getElementById('h'), getElementById('trapezoid-area')) ">Calculate!</button>
+    <input type="text" id="trapezoid-area" />
+    <p>Problem 9. Point in Circle K( (1,1), 3) and outside Rectangle R(top=1, left=-1, width=6, height=2)</p>
+    <label for="xx">x</label>
+    <input type="text" id="xx" />
+    <label for="yy">y</label>
+    <input type="text" id="yy" />
+    <button onclick=" checkPointInCircleOutRectangle(getElementById('xx'), getElementById('yy'), getElementById('in-circle-out-rectangle')) ">Check!</button>
+    <input type="text" id="in-circle-out-rectangle" />
+</body>
+</html>
