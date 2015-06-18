@@ -9,6 +9,8 @@ In this repository I keep all the homework from the JavaScript Fundamentals cour
 5. Arrays [Homework](https://github.com/TelerikAcademy/JavaScript-Fundamentals/blob/master/07.%20Arrays/README.md)
 6. Functions [Homework](https://github.com/TelerikAcademy/JavaScript-Fundamentals/blob/master/08.%20Functions/README.md)
 7. Using Objects [Homework](https://github.com/TelerikAcademy/JavaScript-Fundamentals/blob/master/09.%20Using%20Objects/README.md)
-8. Strings [Homework](https://github.com/TelerikAcademy/JavaScript-Fundamentals/blob/master/10.%20Strings/README.md)
+8. Array Methods [Homework](https://github.com/TelerikAcademy/JavaScript-Fundamentals/blob/master/10.%20Array%20Methods/README.md)
+9. Strings [Homework](https://github.com/TelerikAcademy/JavaScript-Fundamentals/blob/master/10.%20Strings/README.md)
+10. Regular Expressions [Homework](https://github.com/TelerikAcademy/JavaScript-Fundamentals/blob/master/12.%20Regular%20Expressions/README.md)
 
 You can find the lectures @ [Youtube](https://www.youtube.com/channel/UCLC-vbm7OWvpbqzXaoAMGGw).
